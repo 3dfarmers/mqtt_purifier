@@ -1,0 +1,19 @@
+# Your secrets: copy config.example.h to config.h, never commit config.h
+config.h
+
+# Build output
+build/
+.pio/
+*.bin
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
